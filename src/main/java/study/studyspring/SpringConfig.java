@@ -4,6 +4,7 @@ import javax.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import study.studyspring.aop.TimeTraceAop;
 import study.studyspring.repository.MemberRepository;
 import study.studyspring.service.MemberService;
 
@@ -23,12 +24,18 @@ public class SpringConfig {
     }
 
 //    @Bean
+//    public TimeTraceAop timeTraceAop(){
+//        return new TimeTraceAop();
+//    }
+
+//    @Bean
 //    public MemberRepository memberRepository(){
 ////        return new JdbcMemberRepository(dataSource);
 ////        return new JdbcTemplateMemberRepository(dataSource);
 ////        return new JpaMemberRepository(em);
 //        return
 //    }
+
 
 
 }
