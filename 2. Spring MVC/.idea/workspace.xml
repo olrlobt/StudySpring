@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0df73cc5-731d-495f-8f0a-b7aeb6580415" name="Changes" comment="feat: HttpServletRequest- API 메시지 바디 JSON">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_springMVC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloData.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHeaderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHeaderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseJsonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseJsonServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/basic/hello-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/ServletApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/ServletApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/servlet">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/servlet">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="servlet" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="servlet" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="servlet" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="servlet" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ux8EBYR2WO9RtUp32oB0OiOGEq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SSAFY/workspace/StudySpring/2. Spring MVC/servlet/src/main/resources/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;157d54fd9df205d8d347143f2e130165&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\resources\static" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\resources\static\basic\jsp" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\webapp" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\webapp\jsp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\webapp\jsp" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\.gradle\8.2.1\vcsMetadata" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\webapp" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\resources\static" />
+      <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServletApplication">
+    <configuration name="servlet [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/servlet" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2. Spring MVC/2. Spring MVC/servlet/src/main/resources/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.servlet [dependencies]" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0df73cc5-731d-495f-8f0a-b7aeb6580415" name="Changes" comment="" />
+      <created>1693869757152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693869757152</updated>
+      <workItem from="1693869758152" duration="437000" />
+      <workItem from="1693870205455" duration="7092000" />
+      <workItem from="1693887961164" duration="1067000" />
+      <workItem from="1693904939232" duration="1142000" />
+      <workItem from="1693956697018" duration="4725000" />
+      <workItem from="1693961428989" duration="434000" />
+      <workItem from="1693961872020" duration="106000" />
+      <workItem from="1693961980830" duration="4843000" />
+      <workItem from="1693966835671" duration="35000" />
+      <workItem from="1693966873895" duration="19000" />
+      <workItem from="1693966901156" duration="1876000" />
+      <workItem from="1693969029284" duration="84000" />
+      <workItem from="1693969115844" duration="54000" />
+      <workItem from="1693969192541" duration="35000" />
+      <workItem from="1693969309281" duration="215000" />
+      <workItem from="1693972684720" duration="940000" />
+      <workItem from="1693974803833" duration="2000" />
+      <workItem from="1693974844009" duration="80000" />
+      <workItem from="1693975116360" duration="190000" />
+      <workItem from="1693975329797" duration="47000" />
+      <workItem from="1693975399599" duration="115000" />
+      <workItem from="1693975545654" duration="8000" />
+      <workItem from="1693975564504" duration="61000" />
+      <workItem from="1693975628768" duration="52000" />
+      <workItem from="1693975689015" duration="73000" />
+      <workItem from="1693975765149" duration="78000" />
+      <workItem from="1693975845767" duration="21000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: HttpServletRequest- 기본 사용법">
+      <option name="closed" value="true" />
+      <created>1693875202704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693875202704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: HttpServletRequest- GET 쿼리 파라미터">
+      <option name="closed" value="true" />
+      <created>1693888164805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693888164805</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: HttpServletRequest- API 메시지 바디 JSON">
+      <option name="closed" value="true" />
+      <created>1693906069111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693906069111</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: HttpServletRequest- 기본 사용법" />
+    <MESSAGE value="feat: HttpServletRequest- GET 쿼리 파라미터" />
+    <MESSAGE value="feat: HttpServletRequest- API 메시지 바디 JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: HttpServletRequest- API 메시지 바디 JSON" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

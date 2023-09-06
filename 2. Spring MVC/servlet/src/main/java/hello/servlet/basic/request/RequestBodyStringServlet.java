@@ -1,5 +1,6 @@
 package hello.servlet.basic.request;
 
+
 import org.springframework.util.StreamUtils;
 
 import javax.servlet.ServletException;
@@ -11,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
-@WebServlet(name = "requestBodyStringServlet" , urlPatterns = "/request-body-string")
+@WebServlet(name = "requestBodyStringServlet", urlPatterns = "/request-body-string")
 public class RequestBodyStringServlet extends HttpServlet {
 
     @Override
