@@ -19,11 +19,14 @@ public class MemberSaveServlet extends HttpServlet {
             response)
             throws ServletException, IOException {
         System.out.println("MemberSaveServlet.service");
+
         String username = request.getParameter("username");
         int age = Integer.parseInt(request.getParameter("age"));
+
         Member member = new Member(username, age);
         System.out.println("member = " + member);
         memberRepository.save(member);
+
         response.setContentType("text/html");
         response.setCharacterEncoding("utf-8");
         PrintWriter w = response.getWriter();
