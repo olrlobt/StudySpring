@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df73cc5-731d-495f-8f0a-b7aeb6580415" name="Changes" comment="feat: HttpServletRequest- API 메시지 바디 JSON">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study_springMVC.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloData.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHeaderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHeaderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseJsonServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/basic/response/ResponseJsonServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/basic/hello-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/ServletApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/ServletApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,13 +87,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SSAFY/workspace/StudySpring/2. Spring MVC/servlet/src/main/resources/static&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tmdgj/git/study-spring/2. Spring MVC&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
@@ -172,11 +137,23 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2. Spring MVC/2. Spring MVC/servlet/src/main/resources/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="2. Spring MVC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="2. Spring MVC" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
@@ -226,6 +203,13 @@
       <workItem from="1693975689015" duration="73000" />
       <workItem from="1693975765149" duration="78000" />
       <workItem from="1693975845767" duration="21000" />
+      <workItem from="1694173813831" duration="49000" />
+      <workItem from="1694173871530" duration="49000" />
+      <workItem from="1694173923122" duration="37000" />
+      <workItem from="1694173978918" duration="39000" />
+      <workItem from="1694174118477" duration="88000" />
+      <workItem from="1694174230091" duration="628000" />
+      <workItem from="1694231903236" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="feat: HttpServletRequest- 기본 사용법">
       <option name="closed" value="true" />
@@ -256,6 +240,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: HttpServletRequest- 기본 사용법" />
