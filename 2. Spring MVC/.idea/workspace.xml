@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df73cc5-731d-495f-8f0a-b7aeb6580415" name="Changes" comment="feat: HttpServletRequest- API 메시지 바디 JSON">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tmdgj/git/study-spring/2. Spring MVC&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tmdgj/git/StudySpring/2. Spring MVC&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,7 +97,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;157d54fd9df205d8d347143f2e130165&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -117,7 +118,26 @@
       <recent name="C:\SSAFY\workspace\StudySpring\2. Spring MVC\servlet\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServletApplication">
+  <component name="RunManager" selected="Gradle.C:/Users/tmdgj/git/StudySpring/2. Spring MVC/servlet/build.gradle">
+    <configuration name="C:/Users/tmdgj/git/StudySpring/2. Spring MVC/servlet/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/servlet/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="servlet [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,24 +157,10 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/2. Spring MVC/2. Spring MVC/servlet/src/main/resources/templates/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="2. Spring MVC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="2. Spring MVC" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
@@ -164,6 +170,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.C:/Users/tmdgj/git/StudySpring/2. Spring MVC/servlet/build.gradle" />
         <item itemvalue="Gradle.servlet [dependencies]" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -211,6 +218,8 @@
       <workItem from="1694174118477" duration="88000" />
       <workItem from="1694174230091" duration="628000" />
       <workItem from="1694231903236" duration="35000" />
+      <workItem from="1695042872636" duration="106000" />
+      <workItem from="1695042984245" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="feat: HttpServletRequest- 기본 사용법">
       <option name="closed" value="true" />
