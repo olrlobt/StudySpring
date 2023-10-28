@@ -25,8 +25,7 @@ public class BoardMain {
 		ApplicationContext context = new ClassPathXmlApplicationContext(
 				"com/ssafy/board/config/applicationContext.xml");
 
-
-		BoardController boardController = null;
+		BoardController boardController = context.getBean("boardController", BoardController.class);
 		BoardDto boardDto = new BoardDto();
 		boardDto.setUserId("ssafy");
 		System.out.print("제목 : ");
