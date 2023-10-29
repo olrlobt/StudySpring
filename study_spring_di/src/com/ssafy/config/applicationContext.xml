@@ -24,5 +24,4 @@
         <property name="username" value="ssafy"/>
         <property name="password" value="ssafy"/>
     </bean>
-
 </beans>
