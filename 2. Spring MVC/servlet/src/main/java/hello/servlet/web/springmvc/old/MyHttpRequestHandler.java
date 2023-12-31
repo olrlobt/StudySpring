@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.HttpRequestHandler;
 
 @Component("/springmvc/request-handler")
-public class MyHttopRequestHandler implements HttpRequestHandler {
+public class MyHttpRequestHandler implements HttpRequestHandler {
 
     @Override
     public void handleRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        System.out.println("MyHttopRequestHandler.handleRequest");
+        System.out.println("MyHttpRequestHandler.handleRequest");
     }
 }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df73cc5-731d-495f-8f0a-b7aeb6580415" name="Changes" comment="feat: HttpServletRequest- API 메시지 바디 JSON">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0df73cc5-731d-495f-8f0a-b7aeb6580415" name="Changes" comment="feat: MVC - Spring Controller &amp; request-handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/old/MyHttopRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/java/hello/servlet/web/springmvc/old/MyHttpRequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/servlet/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +245,7 @@
       <workItem from="1694231903236" duration="35000" />
       <workItem from="1695042872636" duration="106000" />
       <workItem from="1695042984245" duration="2000" />
-      <workItem from="1704022029223" duration="5494000" />
+      <workItem from="1704022029223" duration="8385000" />
     </task>
     <task id="LOCAL-00001" summary="feat: HttpServletRequest- 기본 사용법">
       <option name="closed" value="true" />
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693906069111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: MVC - Spring Controller &amp; request-handler">
+      <created>1704030388654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704030388654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +299,8 @@
     <MESSAGE value="feat: HttpServletRequest- 기본 사용법" />
     <MESSAGE value="feat: HttpServletRequest- GET 쿼리 파라미터" />
     <MESSAGE value="feat: HttpServletRequest- API 메시지 바디 JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: HttpServletRequest- API 메시지 바디 JSON" />
+    <MESSAGE value="feat: MVC - Spring Controller &amp; request-handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: MVC - Spring Controller &amp; request-handler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
