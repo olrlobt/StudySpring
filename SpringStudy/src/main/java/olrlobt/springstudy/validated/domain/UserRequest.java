@@ -1,21 +1,17 @@
-package olrlobt.springstudy.valid.domain;
+package olrlobt.springstudy.validated.domain;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import lombok.Setter;
 import lombok.ToString;
-import olrlobt.springstudy.valid.domain.Address;
 
 @ToString
 @Setter
 public class UserRequest {
-	@Email
+
+	@Email(groups = UserValidationGroup.class)
 	private String email;
 
-	@NotBlank
+	@NotBlank(groups = {UserValidationGroup.class, AdminValidationGroup.class})
 	private String password;
-
-	@NotNull
-	private Address address;
 }

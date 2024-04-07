@@ -23,6 +23,7 @@ public class ValidApi {
 	@PostMapping("/api/valid2")
 	public ResponseEntity<?> valid2(@Valid @RequestBody UserRequest2 userRequest2) {
 		// 예외가 발생한다.
+		// MethodArgumentNotValidException
 		return ResponseEntity.ok().build();
 	}
 }
