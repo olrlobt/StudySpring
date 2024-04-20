@@ -12,6 +12,8 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
+import olrlobt.springstudy.nonFk.dto.BoardResponse;
+import olrlobt.springstudy.nonFk.dto.ReplyResponse;
 
 @Getter
 @Entity
@@ -28,4 +30,9 @@ public class Board {
 	@ManyToOne
 	private User user;
 
+	public BoardResponse toDto() {
+		List<ReplyResponse> replyResponses = new ArrayList<>();
+		replies.forEach(reply -> replyResponses.add(reply.toDto()));
+		return new BoardResponse(id, replyResponses, user.getName());
+	}
 }

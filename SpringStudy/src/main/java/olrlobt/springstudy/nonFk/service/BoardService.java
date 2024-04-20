@@ -1,9 +1,9 @@
 package olrlobt.springstudy.nonFk.service;
 
-import olrlobt.springstudy.nonFk.domain.Board;
+import olrlobt.springstudy.nonFk.dto.BoardResponse;
 
 public interface BoardService {
-	Board findBoard(Long boardId);
+	BoardResponse findBoard(Long boardId);
 
 	void addBoard();
 

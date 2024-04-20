@@ -1,20 +1,17 @@
 package olrlobt.springstudy.nonFk.service;
 
-import java.util.Optional;
-
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import lombok.RequiredArgsConstructor;
 import olrlobt.springstudy.nonFk.domain.Board;
 import olrlobt.springstudy.nonFk.domain.Reply;
+import olrlobt.springstudy.nonFk.dto.BoardResponse;
 import olrlobt.springstudy.nonFk.repository.BoardRepository;
 import olrlobt.springstudy.nonFk.repository.ReplyRepository;
 import olrlobt.springstudy.nonFk.repository.UserRepository;
 
 @Service
 @RequiredArgsConstructor
-@Primary
 public class BoardServiceImpl implements BoardService {
 
 	private final BoardRepository boardRepository;
@@ -22,8 +19,9 @@ public class BoardServiceImpl implements BoardService {
 	private final UserRepository userRepository;
 
 	@Override
-	public Board findBoard(Long boardId) {
-		return boardRepository.findById(boardId).get();
+	public BoardResponse findBoard(Long boardId) {
+		Board board = boardRepository.findById(boardId).get();
+		return board.toDto();
 	}
 
 	@Override

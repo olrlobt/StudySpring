@@ -10,6 +10,7 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
+import olrlobt.springstudy.nonFk.dto.ReplyResponse;
 
 @Getter
 @Entity
@@ -24,4 +25,8 @@ public class Reply {
 	@JoinColumn(name = "board_id")
 	@JsonIgnore
 	private Board board;
+
+	public ReplyResponse toDto(){
+		return new ReplyResponse(id);
+	}
 }
