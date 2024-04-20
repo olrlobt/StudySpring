@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
 import olrlobt.springstudy.nonFk.domain.nonfk.NonFkBoard;
+import olrlobt.springstudy.nonFk.dto.BoardResponse;
 import olrlobt.springstudy.nonFk.service.nonfk.NonFkBoardService;
 
 @RestController
@@ -20,7 +21,7 @@ public class NonFkBoardApi {
 
 
 	@GetMapping("/non-fk-api/boards/{boardId}")
-	public ResponseEntity<NonFkBoard> findBoards(@PathVariable Long boardId) {
+	public ResponseEntity<BoardResponse> findBoards(@PathVariable Long boardId) {
 		return ResponseEntity.ok(boardService.findBoard(boardId));
 	}
 

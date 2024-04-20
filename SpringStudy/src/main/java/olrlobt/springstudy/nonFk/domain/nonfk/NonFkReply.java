@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
+import olrlobt.springstudy.nonFk.dto.ReplyResponse;
 
 @Getter
 @Entity
@@ -17,4 +18,8 @@ public class NonFkReply {
 
 	@Setter
 	private Long boardId;
+
+	public ReplyResponse toDto(){
+		return new ReplyResponse(id);
+	}
 }
