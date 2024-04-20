@@ -43,6 +43,8 @@ public class NonFkBoardServiceImpl implements NonFkBoardService {
 
 	@Override
 	public void deleteBoard(Long boardId) {
+		List<NonFkReply> allByBoardId = replyRepository.findAllByBoardId(boardId);
+		replyRepository.deleteAll(allByBoardId);
 		boardRepository.deleteById(boardId);
 	}
 
