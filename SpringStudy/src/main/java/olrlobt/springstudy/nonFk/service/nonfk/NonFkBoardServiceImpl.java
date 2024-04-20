@@ -50,6 +50,9 @@ public class NonFkBoardServiceImpl implements NonFkBoardService {
 
 	@Override
 	public void addReply(Long boardId) {
+		if(!boardRepository.existsById(boardId)){
+			return;
+		}
 		NonFkReply reply = new NonFkReply();
 		reply.setBoardId(boardId);
 		replyRepository.save(reply);
