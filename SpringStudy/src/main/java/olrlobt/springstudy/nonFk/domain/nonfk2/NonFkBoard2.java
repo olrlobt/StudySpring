@@ -13,16 +13,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
-import lombok.AccessLevel;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 import olrlobt.springstudy.nonFk.dto.BoardResponse;
 import olrlobt.springstudy.nonFk.dto.ReplyResponse;
 
 @Getter
 @Entity
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class NonFkBoard2 {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
